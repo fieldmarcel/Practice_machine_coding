@@ -17,7 +17,7 @@ const limitdata= data.comments.slice(0,10);
 setdata(limitdata);
 
         } catch (error) {
-            console.error("geting error ", error)
+            console.error("xgeting error ", error)
         }
     }
 
