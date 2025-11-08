@@ -24,8 +24,9 @@ const Api = () => {
       const res = await fetch(`https://dummyjson.com/recipes`);
       const x = await res.json();
 
-      const limitdata= x.recipes.slice(0,3);
-      setdata(limitdata)
+    //   const limitdata= x.recipes.slice(0,3);
+
+      setdata(x.recipes)
     } catch (error) {
       console.error("error", error);
     } finally {
