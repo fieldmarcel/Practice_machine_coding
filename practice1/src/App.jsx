@@ -4,11 +4,12 @@ import Form from './form.jsx'
 import Pager from './Pager.jsx';
 import Api from './api.jsx';
 import Form2 from './Form2.jsx'
-
+import Form3 from './FOrm3.jsx';
 function App() {
 
   return (
     <>
+    <div><Form3/></div>
           <div><Form2/></div>
 
     <div><Api/></div>
